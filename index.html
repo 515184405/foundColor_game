@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Cache-Control" title="页面不缓存,注意"
+	content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta http-equiv="Expires" content="0" />
+	<meta name="format-detection" content="telephone=no">
+	<title></title>
+	<meta id="scale" content="initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+</head>
+<body>
+	<link rel="stylesheet" href="index.css">
+	<div style="height:0;width:0;overflow: hidden;">
+		<img src="img/share.png" alt="">
+	</div>
+	<div id="qidong_page" class="qidong_page">
+		<img src="img/loader.gif" alt="">
+	</div>
+	<div class="" id="game_start">
+		<div class="game_start_txt game_top">
+			<p class="game_title animated bounceInDown">游戏开始</p>
+			<p class="tada animated infinite">点击屏幕任意位置开始</p>
+		</div>
+		<div class="game_rule fadeInUp animated">
+			<h3>游戏规则：</h3>
+			<p>1.找出（点击）与其他颜色不同的色</p>
+			<p>2.时间限定一分钟，点击错误颜色扣3秒时间</p>
+			<p>3.最终解释权归国艺金服所有</p>
+		</div>
+	</div>
+	<div class="none" id="game_end">
+		<div class="congratulation">
+			恭喜您
+		</div>
+		<div class="game_end_num" id="game_end_num">
+			
+		</div>
+		<div class="game_start_txt pulse animated game_end_txt">
+			<p class="f14">闯过35关并将截图发至过国艺金服公众号</p>
+			<p>即有机会获得情人节超级大礼一份</p>
+			<p class="game_end_btn game_title f14">
+				<a id="game_play" href="javascript:;">再来一次</a>
+				<a id="game_share" href="javascript:;">分享战绩</a>
+			</p>
+		</div>
+	</div>
+	<div class="none" id="game_share_img">
+		<img src="img/share_img.png" alt="">
+	</div>
+	<div id="music" class="music">
+		<audio id="music-audio" class="audio" src="file/bg.mp3" loop="loop" preload="auto"></audio>		
+		<div class="control">
+			<div class="control-after"></div>
+		</div>
+	</div>
+	<audio class="error_music" id="error_music" src="file/err.wav"></audio>
+	<div  id="header">1</div>
+	<div class="time_icon">
+		
+	</div>
+	<div id="time"><h1>剩余时间：<span>60</span></h1></div>
+	<div class="game_bg2">
+		<img src="img/bg2.png" alt="">
+		<div class="color_box clearfix" id="color_box">
+		</div>
+	</div>
+</body>
+<script src="jq.js"></script>
+<script src="index.js"></script>
+</html>
